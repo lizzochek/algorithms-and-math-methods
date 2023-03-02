@@ -11,6 +11,8 @@ function gcd(a, b) {
   return gcd(b, a % b);
 }
 
+console.log(gcd(7,78));
+
 // Function for BigInt pow
 const pow = (base, exponent) => base ** exponent;
 
